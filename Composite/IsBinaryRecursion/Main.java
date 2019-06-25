@@ -41,7 +41,7 @@ public class Main {
 		if (!c.isBinary())
 			return false;
 		
-		if (c.getChilds() != null && c.getChilds().size() == 2) // can skip this check: c.getChilds().size() == 2
+		if (c.getChilds() != null && c.getChilds().size() == 2) 
 		{
 			return isBinary(c.getChilds().get(0)) && isBinary(c.getChilds().get(1)); 
 		}
